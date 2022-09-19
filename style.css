@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700&display=swap"),
+  url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+body {
+  background: linear-gradient(236.85deg, #a60017 27.26%, #5d23d4 96.03%);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 12px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 46px;
+  /*   display: flex; */
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile-photo {
+  max-width: 160px;
+  border-radius: 460px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.profile-title {
+  margin-left: 15px;
+}
+
+.profile-title h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.profile-title h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 20px 16px;
+  background: #ecf4ff;
+  border: 2px solid #0e1d2f;
+  border-radius: 100px;
+}
+
+.profile-title .social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.profile-title .social-icons li a:hover {
+  color: red;
+  width: 50%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  margin-top: 32px;
+  margin-right: 24px;
+  padding: 52px;
+  background: linear-gradient(236.85deg, #5d23d4 27.26%, #250e54 96.03%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  color: #fff;
+  max-width: 80%;
+}
+
+.projects li a {
+  font-size: 18px;
+}
+
+.projects-title {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projects-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.projects-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  /*   justify-content: space-between; */
+}
+
+.achives {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding: 52px;
+  background: linear-gradient(236.85deg, #5d23d4 27.26%, #250e54 96.03%);
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+  color: #fff;
+}
+
+.achives img {
+  max-width: 118px;
+  max-height: 118px;
+}
+.dark {
+  background: linear-gradient(236.85deg, #23272a 27.26%, #2c2f33 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 20px;
+  color: #f7f7f7;
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #fff;
+  border: 1px solid #f7f7f7;
+}
+
+.dark .achives {
+  background: #555555;
+  color: #fff;
+  border: 1px solid #f7f7f7;
+}
+
+.dark .projects {
+  background: #555555;
+  color: #fff;
+  border: 1px solid #f7f7f7;
+}
